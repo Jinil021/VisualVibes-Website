@@ -61,14 +61,14 @@ Author:		elemis
   --bs-light-rgb: 254, 254, 254;
   --bs-gray-rgb: 246, 247, 249;
   --bs-dark-rgb: 38, 43, 50;
-  --bs-primary-rgb: 63, 120, 224;
-  --bs-secondary-rgb: 170, 176, 188;
+  --bs-primary-rgb: 2, 28, 28;
+  --bs-secondary-rgb: 203, 252, 242;
   --bs-success-rgb: 69, 196, 160;
   --bs-info-rgb: 84, 168, 199;
   --bs-warning-rgb: 250, 183, 88;
   --bs-danger-rgb: 226, 98, 107;
   --bs-primary-text-emphasis: #2c549d;
-  --bs-secondary-text-emphasis: #777b84;
+  --bs-secondary-text-emphasis: #CBFCF2;
   --bs-success-text-emphasis: #308970;
   --bs-info-text-emphasis: #3b768b;
   --bs-warning-text-emphasis: #af803e;
@@ -205,8 +205,8 @@ Author:		elemis
   --bs-body-bg-rgb: 254, 254, 254;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
-  --bs-secondary-color: rgba(96, 105, 123, 0.75);
-  --bs-secondary-color-rgb: 96, 105, 123;
+  --bs-secondary-color: rgba(203, 252, 242);
+  --bs-secondary-color-rgb: 203, 252, 242;
   --bs-secondary-bg: #f6f7f9;
   --bs-secondary-bg-rgb: 246, 247, 249;
   --bs-tertiary-color: rgba(96, 105, 123, 0.5);
@@ -214,11 +214,11 @@ Author:		elemis
   --bs-tertiary-bg: #fefefe;
   --bs-tertiary-bg-rgb: 254, 254, 254;
   --bs-heading-color: #343f52;
-  --bs-link-color: #645cbc;
-  --bs-link-color-rgb: 63, 120, 224;
-  --bs-link-decoration: none;
-  --bs-link-hover-color: #5952a4;
-  --bs-link-hover-color-rgb: 63, 120, 224;
+  --bs-link-color: #1CDD00;
+  --bs-link-color-rgb: 28, 221, 0;
+  --bs-link-decoration: capitalize
+  --bs-link-hover-color: #1CDD00;
+  --bs-link-hover-color-rgb: 28, 221, 0;
   --bs-code-color: #60697b;
   --bs-highlight-bg: #fef1de;
   --bs-border-width: 1px;
@@ -31962,7 +31962,7 @@ header {
 }
 .navbar-stick:not(.navbar-dark) {
   box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.06);
-  background: rgba(var(--bs-white-rgb), 0.97);
+  background: rgba(203,252,242,1.000);
 }
 button.hamburger {
   cursor: pointer;
