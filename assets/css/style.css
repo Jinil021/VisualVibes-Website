@@ -4509,7 +4509,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-grape {
   --bs-btn-color: #605dba;
-  --bs-btn-border-color: #605dba;
+  --bs-btn-border-color: #021C1C;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #605dba;
   --bs-btn-hover-border-color: #605dba;
